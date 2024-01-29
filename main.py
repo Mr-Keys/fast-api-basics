@@ -3,7 +3,7 @@ from enum import Enum
 
 app = FastAPI()
 
-
+#basic endpoint to get root
 @app.get('/')
 def index():
     return {'message': 'Hello World'}
@@ -13,7 +13,7 @@ def index():
 def get_all_blogs():
     return "all blogs"
 
-
+#Add a enum Class to restrict user inputs
 class BlogType(str, Enum):
     short = 'short'
     story = 'story'
