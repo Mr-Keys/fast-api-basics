@@ -72,3 +72,6 @@ def get_blog(id: int, response: Response):
 #tags-used to define categories for different API calls
 #summary-short description of what the API does and description-details about the API(long)
 #can also use ''' some description here ''' inside a function declaration for description
+
+
+#ROUTERS-separate operations into multiple files /share a prefix but perform multiple operations
